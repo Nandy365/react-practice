@@ -1,7 +1,8 @@
-import Expenses from './Expenses';
+
 import componentsImage from './assets/images/components.png';
 import stateImage from './assets/images/state.png';
 import eventsImage from './assets/images/events.png';
+import Expenses from './components/Expenses';
 
 const concepts = [
   {
@@ -27,7 +28,7 @@ const concepts = [
 function App() {
   return (
     <div>
-      <Expenses item={concepts}></Expenses>
+      <Expenses items={concepts}></Expenses>
     </div>
   );
 }
